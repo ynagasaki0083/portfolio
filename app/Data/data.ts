@@ -5,5 +5,5 @@ export const BaseInfo = {
   position: "Fledgling web developer",
   description: "なんやかんや書く",
   //   profilePic: "/karihero.JPG",
-  profilePic: "/myphoto.JPG",
+  profilePic: "/myphoto.jpg",
 };

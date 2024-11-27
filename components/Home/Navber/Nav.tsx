@@ -46,6 +46,7 @@ const Nav = ({ openNav }: Props) => {
           width={170}
           height={170}
           className="ml-[-1.5rem] sm:ml-0"
+          unoptimized
         />
         {/* Nav Links */}
         <div className="flex items-center space-x-10">
