@@ -39,6 +39,7 @@ const Hero = () => {
               alt={BaseInfo.name}
               width={500}
               height={500}
+              unoptimized
             />
           </div>
         </div>
