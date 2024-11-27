@@ -4,6 +4,6 @@ export const BaseInfo = {
   name: "yuya nagasaki",
   position: "Fledgling web developer",
   description: "なんやかんや書く",
-  //   profilePic: "/karihero.JPG",
-  profilePic: "./myphoto.jpg",
+  //   profilePic: "/karihero.jpg",
+  profilePic: "./karihero.jpg",
 };
