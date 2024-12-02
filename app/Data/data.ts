@@ -21,11 +21,26 @@ export const ProjectData = [
   {
     id: 1,
     image: "./kariproject01.jpg",
-    url: "",
+    url: "https://qiita.com/",
   },
   {
     id: 2,
     image: "./kariproject02.jpg",
-    url: "",
+    url: "http://www.shiftup.net/",
+  },
+];
+
+export const SkillsData = [
+  {
+    id: 1,
+    title: "Nextjs",
+    image: "./nextjs-icon-dark-background.png",
+    experience: "2週間",
+  },
+  {
+    id: 2,
+    title: "TypeScript",
+    image: "./ts-logo-128.svg",
+    experience: "2週間",
   },
 ];
