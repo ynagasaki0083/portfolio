@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "./ContactForm";
-import ContactInfo from "./ContactInfo";
+// import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
   return (
@@ -11,9 +11,7 @@ const Contact = () => {
           <ContactForm />
         </div>
         {/* Contact Info */}
-        <div>
-          <ContactInfo />
-        </div>
+        <div>{/* <ContactInfo /> */}</div>
       </div>
     </div>
   );

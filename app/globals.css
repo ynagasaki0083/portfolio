@@ -13,4 +13,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .custom-scrollber::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
 }

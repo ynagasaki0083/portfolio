@@ -4,11 +4,9 @@ const ContactForm = () => {
   return (
     <div className="bg-[#140c1c] rounded-lg p-4 sm:p-10">
       <h1 className=" pt-4 text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
-        連絡先はこちら
+        連絡はこちらよりお願いします。
       </h1>
-      <p className="text-gray-200 mt-3 lg:text-base text-xs md:text-sm">
-        j なんやかんや書く
-      </p>
+
       {/* Input Fields */}
       <form className="mt-8 block w-full overflow-hidden">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
@@ -45,6 +43,14 @@ const ContactForm = () => {
           rows={7}
           placeholder="本文"
         ></textarea>
+        <div className="mt-4">
+          <button
+            className="px-8 py-3.5 bg-[#7947bf] text-white transition-all duration-150
+            rounded-full"
+          >
+            送信
+          </button>
+        </div>
       </form>
     </div>
   );
