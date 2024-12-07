@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#0f0715]">
+    <div className="pt-16 pb-16 bg-[#0f0715] z-[10000]">
       <div>
         <Image
           src="logo.png"

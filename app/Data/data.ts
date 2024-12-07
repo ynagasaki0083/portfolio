@@ -9,7 +9,7 @@ export const BaseInfo = {
 };
 
 export const AboutInfo = {
-  title: "AboutInfoのtitle",
+  title: "About me",
   description: "AboutInfo なんやかんや書く",
   client: "50+",
   experience: "3+",
