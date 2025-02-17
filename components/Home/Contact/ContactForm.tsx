@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="bg-[#140c1c] rounded-lg p-4 sm:p-10">
-      <h1 className=" pt-4 text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
+    <div className="bg-[#0070f7] rounded-lg p-4 sm:p-10">
+      <h1 className=" pt-4 text-stone-200 text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
         連絡はこちらよりお願いします。
       </h1>
 
@@ -45,7 +45,7 @@ const ContactForm = () => {
         ></textarea>
         <div className="mt-4">
           <button
-            className="px-8 py-3.5 bg-[#7947bf] text-white transition-all duration-150
+            className="px-8 py-3.5 bg-[#ec992c] text-[#111111]transition-all duration-150
             rounded-full"
           >
             送信

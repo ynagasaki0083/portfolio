@@ -1,11 +1,11 @@
-import SectionHeading from "@/components/Helper/SectionHeading";
+import SectionHeading from "@/app/Helper/SectionHeading";
 import { SkillsData } from "@/app/Data/data";
 import React from "react";
 import SkillCard from "./SkillCard";
 
 const SKills = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#0f0715]">
+    <div className="pt-16 pb-16 bg-[#0070f7]">
       <SectionHeading>Skkils</SectionHeading>
       <div
         className="mt-20 w-[80%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4

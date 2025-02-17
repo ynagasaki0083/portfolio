@@ -1,23 +1,27 @@
-// import Link from "next/link";
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <h1>Home</h1>
-//       <Link href="/about">About</Link>
-//     </div>
-//   );
-// }
+"use client";
 
 import Home from "@/components/Home/Home";
 import React from "react";
 
-const HomePage = () => {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
-};
+export default function HomePage() {
+  return <Home />;
+}
 
-export default HomePage;
+// "use client";
+// import { useUser } from "@auth0/nextjs-auth0/client";
+
+// export default function Home() {
+//   const { user, error, isLoading } = useUser();
+//   if (isLoading) return <div>Loading...</div>;
+//   if (error) return <div>{error.message}</div>;
+
+//   if (user) {
+//     return (
+//       <div>
+//         Welcome {user.name}! <a href="/api/auth/logout">Logout</a>
+//       </div>
+//     );
+//   }
+
+//   return <a href="/api/auth/login">Login</a>;
+// }

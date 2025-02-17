@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navber/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
-import ScrollToTop from "./Helper/ScrollToTop";
+import ScrollToTop from "@/app/Helper/ScrollToTop";
 
 const HEADER_HEIGHT = "12vh";
 

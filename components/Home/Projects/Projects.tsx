@@ -1,12 +1,12 @@
 import React from "react";
-import SectionHeading from "@/components/Helper/SectionHeading";
+import SectionHeading from "@/app/Helper/SectionHeading";
 import { ProjectData } from "@/app/Data/data";
 import Link from "next/link";
 import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#050709]">
+    <div className="pt-16 pb-16 bg-[#e6e7e9]">
       <SectionHeading>MY Projects</SectionHeading>
       <div className="w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
         {ProjectData.map((Projects) => {

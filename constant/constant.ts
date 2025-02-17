@@ -1,5 +1,3 @@
-// 項目数は減らしたほうがいいよ
-
 export const navLinks = [
   {
     id: 1,
@@ -18,7 +16,7 @@ export const navLinks = [
   },
   {
     id: 4,
-    url: "./Projects",
+    url: "/Home/Projects",
     label: "Projects",
   },
   {

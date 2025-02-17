@@ -8,7 +8,15 @@
     after:duration-300 after:origin-right;
   }
   .text-bg {
-    background-image: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+    background-image: linear-gradient(to right, #0070f7 0%, #363639 100%);
+    background-clip: text;
+    /* フォントの枠に色つけたい */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-bg-sub {
+    background-image: linear-gradient(to right, #fefcf8 0%, #363639 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -17,5 +25,25 @@
   .custom-scrollber::-webkit-scrollbar {
     width: 10px;
     height: 10px;
+  }
+  .main-color-bg {
+    background-color: #e6e7e9;
+  }
+  table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 1px;
+  }
+
+  th {
+    border: 2px dashed lightgray;
+    border-bottom: 1px solid black;
+    padding: 4px;
+    background: rgb(160, 160, 162);
+  }
+
+  td {
+    border: 1px solid rgb(108, 99, 99);
+    padding: 4px;
   }
 }

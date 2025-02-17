@@ -1,20 +1,23 @@
 import React from "react";
-import SectionHeading from "../../Helper/SectionHeading";
+import SectionHeading from "@/app/Helper/SectionHeading";
 import { AboutInfo } from "@/app/Data/data";
 import { CheckBadgeIcon } from "@heroicons/react/20/solid";
 
 const About = () => {
   return (
-    <div className="pt-16 pg-16 bg-[#050709]">
+    <div className="pt-16 pg-16 bg-[#0070f7]">
       {/* Section Heading */}
       <SectionHeading>about Me</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* Text Content */}
         <div>
-          <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
+          <h1 className="text-bg-sub text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
             {AboutInfo.title}
           </h1>
-          <p className="mt-6 text-base text-gray-500">
+          <p
+            className="mt-6 text-base text-white
+          "
+          >
             {AboutInfo.description}
           </p>
           <div className="mt-8">

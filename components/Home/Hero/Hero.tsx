@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     // Navバーより下のdiv
-    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative">
+    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen text-bg overflow-hidden relative">
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
           {/* Text Content */}
@@ -25,10 +25,10 @@ const Hero = () => {
             </p>
             {/* Button */}
             <button
-              className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg
+              className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold tenxt-sm md:text-lg
             transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2"
             >
-              <span>Download</span>
+              <span className="text-white font-semibold">履歴書DL</span>
               <ArrowDownTrayIcon className="w-5 h-5 ml-2" />
             </button>
           </div>
